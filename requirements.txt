@@ -1,0 +1,8 @@
+# Google Agent Development Kit (Core Framework)
+google-adk>=2.0.0
+
+# Google GenAI & Cloud integration (for Vertex AI and local environments)
+google-cloud-aiplatform[agent_engines,adk]>=1.112.0
+
+# Additional standard utilities
+typing-extensions>=4.0.0
