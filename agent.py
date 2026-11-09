@@ -58,7 +58,6 @@ def before_agent_callback(callback_context: Any) -> Optional[Any]:
     print(f"[Callback] Before model call for agent: {agent_name}")
     user_id = callback_context.session.user_id
     print(f"Agent invoked by User ID: {user_id}")
-    user_language = extract_browser_language(callback_context)
 
     # This will generate a clean, searchable jsonPayload
     log_entry = {
